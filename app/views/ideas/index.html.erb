@@ -1,1 +1,4 @@
-<h1>This is my first ruby app and I'm super excited to be a coder! SHISHIR tHAPA</h1>
+<%= @ideas.each do |idea| %>
+    <h3><%= idea.content %></h3>
+    <h4><%= idea.author %></h4>
+<%= end %>
