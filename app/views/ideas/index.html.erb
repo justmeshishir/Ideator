@@ -1,7 +1,7 @@
 <%= simple_form_for Idea.new do |f| %>
   <%= f.input :content %>
   <%= f.input :author %>
-  <%= f.submit 'Submit', class:'btn btn-primary' %>
+  <%= f.submit 'Submit', class:'btn btn-success' %>
 <% end %>
 <%= @ideas.each do |idea| %>
     <div class="panel panel-default">
