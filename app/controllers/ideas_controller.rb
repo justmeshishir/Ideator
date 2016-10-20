@@ -9,6 +9,7 @@ class IdeasController < ApplicationController
       flash[:success]= "Your idea has been posted!"
     else
       flash[:alert]= "Woops! Looks like there has been an error!"
+    end
     redirect_to root_path
   end
   
