@@ -53,3 +53,6 @@ gem 'simple_form'
 
 # Heroku debugging
 gem 'rails_12factor', group: :production
+
+#for pagination
+gem 'will_paginate', '3.1.0'
