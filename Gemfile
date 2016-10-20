@@ -48,3 +48,6 @@ end
 #adding bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
 
+#simple form 
+gem 'simple_form'
+
